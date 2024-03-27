@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class RecordSignatureTemplate {
 
-    private final static String TEMPLATE_SIGNATURE = "home/JAVA_bootcamp/Day02_IO_and_files/src/task_0/signature.txt";
+    private final static String TEMPLATE_SIGNATURE = "/home/TrainingProject_8_IO_Stream/src/signature.txt";
 
     private static final ArrayList<ArrayList<String>> signature = new ArrayList<>();
 

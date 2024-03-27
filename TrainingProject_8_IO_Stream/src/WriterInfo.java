@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class WriterInfo {
 
-    private static final String FILE_RESULT = "/home/result.txt";
+    private static final String FILE_RESULT = "/home/TrainingProject_8_IO_Stream/src/result.txt";
 
 
     private WriterInfo() {
