@@ -74,7 +74,7 @@
   - src
     - main
       - java
-        - edu.school21
+        - edu.lieineyes
           - exceptions
             - AlreadyAuthenticatedException
           - numbers
@@ -91,7 +91,7 @@
       - resources
     - test
       - java
-        - edu.school21
+        - edu.lieineyes
           - services
             - UsersServiceImplTest
           - numbers

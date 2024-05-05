@@ -8,7 +8,7 @@ import java.util.Properties;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
-import static edu.school21.chaselogic.ChaseLogic.getNewCoordinate;
+import static edu.lieineyes.chaselogic.ChaseLogic.getNewCoordinate;
 
 
 public class StartGame {

@@ -104,7 +104,7 @@ UsersRepositoryJdbcImpl должен принимать интерфейс ис�
   - src
     - main
       - java
-        - edu.school21.chat
+        - edu.lieineyes.chat
           - models
             - ... 
           - repositories
