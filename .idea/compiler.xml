@@ -11,6 +11,7 @@
         <module name="annotation-user" />
         <module name="Chat" />
         <module name="Reflection" />
+        <module name="ORM" />
         <module name="Tests" />
         <module name="annotation-processor" />
       </profile>
