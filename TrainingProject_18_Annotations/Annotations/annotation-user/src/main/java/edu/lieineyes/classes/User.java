@@ -1,7 +1,7 @@
-package edu.school21.classes;
+package edu.lieineyes.classes;
 
-import edu.school21.annotations.HtmlForm;
-import edu.school21.annotations.HtmlInput;
+import edu.lieineyes.annotations.HtmlForm;
+import edu.lieineyes.annotations.HtmlInput;
 import lombok.ToString;
 
 @ToString

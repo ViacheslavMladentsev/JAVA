@@ -1,4 +1,4 @@
-package edu.school21.annotations;
+package edu.lieineyes.annotations;
 
 import com.google.auto.service.AutoService;
 
@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Set;
 
 
-@SupportedAnnotationTypes({"edu.school21.annotations.HtmlForm", "edu.school21.classes.HtmlInput"})
+@SupportedAnnotationTypes({"edu.lieineyes.annotations.HtmlForm", "edu.lieineyes.classes.HtmlInput"})
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 @AutoService(Processor.class)
 public class HtmlProcessor extends AbstractProcessor {

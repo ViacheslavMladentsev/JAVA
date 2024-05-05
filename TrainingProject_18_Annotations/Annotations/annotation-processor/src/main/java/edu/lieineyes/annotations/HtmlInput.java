@@ -1,4 +1,4 @@
-package edu.school21.annotations;
+package edu.lieineyes.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
