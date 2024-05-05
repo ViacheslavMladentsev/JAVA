@@ -13,7 +13,7 @@ import java.util.Set;
 
 
 public class Main {
-    private static final String PACKAGE_NAME = "edu.school21.classes";
+    private static final String PACKAGE_NAME = "edu.lieineyes.classes";
     private static final String MESSAGE_NAME_CLASSES = "Classes:";
     private static final String DELIMITER = "---------------------";
     private static final String MESSAGE_INPUT_NAME_CLASS = "Enter class name:";
