@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/TrainingProject_17_Reflection/Reflection/pom.xml" />
         <option value="$PROJECT_DIR$/TrainingProject_14_My_First_Game_With_Maven/Game/pom.xml" />
         <option value="$PROJECT_DIR$/TrainingProject_14_My_First_Game_With_Maven/ChaseLogic/pom.xml" />
+        <option value="$PROJECT_DIR$/TrainingProject_18_Annotations/Annotations/annotation-processor/pom.xml" />
+        <option value="$PROJECT_DIR$/TrainingProject_18_Annotations/Annotations/annotation-user/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -11,5 +11,9 @@
     <file url="file://$PROJECT_DIR$/TrainingProject_16_JUnit_Mockito/Tests/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TrainingProject_17_Reflection/Reflection/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TrainingProject_17_Reflection/Reflection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject_18_Annotations/Annotations/annotation-processor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject_18_Annotations/Annotations/annotation-processor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject_18_Annotations/Annotations/annotation-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject_18_Annotations/Annotations/annotation-user/src/main/resources" charset="UTF-8" />
   </component>
 </project>

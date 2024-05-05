@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ChaseLogic" />
+        <module name="Game" />
+        <module name="annotation-user" />
         <module name="Chat" />
         <module name="Reflection" />
-        <module name="Game" />
         <module name="Tests" />
+        <module name="annotation-processor" />
       </profile>
     </annotationProcessing>
   </component>
