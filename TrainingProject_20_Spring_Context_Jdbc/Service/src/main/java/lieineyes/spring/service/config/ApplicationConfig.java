@@ -10,7 +10,7 @@ import org.springframework.context.annotation.PropertySource;
 
 
 @Configuration
-@ComponentScan("school21.spring.service")
+@ComponentScan("lieineyes.spring.service")
 @PropertySource("classpath:db.properties")
 public class ApplicationConfig {
     @Value("${dataSource.URL}")
