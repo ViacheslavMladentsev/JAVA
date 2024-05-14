@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/TrainingProject_18_Annotations/Annotations/annotation-user/pom.xml" />
         <option value="$PROJECT_DIR$/TrainingProject_19/ORM/pom.xml" />
         <option value="$PROJECT_DIR$/TrainingProject_19_ORM/ORM/pom.xml" />
+        <option value="$PROJECT_DIR$/Service/pom.xml" />
+        <option value="$PROJECT_DIR$/TrainingProject_20_Spring_Context_Jdbc/Service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

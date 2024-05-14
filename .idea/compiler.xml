@@ -10,6 +10,7 @@
         <module name="Game" />
         <module name="annotation-user" />
         <module name="Chat" />
+        <module name="Service" />
         <module name="Reflection" />
         <module name="ORM" />
         <module name="Tests" />
