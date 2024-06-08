@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/TrainingProject_14_My_First_Game_With_Maven/ChaseLogic/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_14_My_First_Game_With_Maven/ChaseLogic/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_14_My_First_Game_With_Maven/Game/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_14_My_First_Game_With_Maven/Game/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_15_JDBC/Chat/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_15_JDBC/Chat/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_16_JUnit_Mockito/Tests/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_16_JUnit_Mockito/Tests/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_17_Reflection/Reflection/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_17_Reflection/Reflection/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_18_Annotations/Annotations/annotation-processor/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_18_Annotations/Annotations/annotation-processor/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_18_Annotations/Annotations/annotation-user/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_18_Annotations/Annotations/annotation-user/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_19_ORM/ORM/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_19_ORM/ORM/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_20_Spring_Context_Jdbc/Service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TrainingProject_20_Spring_Context_Jdbc/Service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_14_My_First_Game_With_Maven/ChaseLogic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_14_My_First_Game_With_Maven/ChaseLogic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_14_My_First_Game_With_Maven/Game/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_14_My_First_Game_With_Maven/Game/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_15_JDBC/Chat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_15_JDBC/Chat/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_16_JUnit_Mockito/Tests/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_16_JUnit_Mockito/Tests/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_17_Reflection/Reflection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_17_Reflection/Reflection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_18_Annotations/Annotations/annotation-processor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_18_Annotations/Annotations/annotation-processor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_18_Annotations/Annotations/annotation-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_18_Annotations/Annotations/annotation-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_19_ORM/ORM/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_19_ORM/ORM/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_20_Spring_Context_Jdbc/Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TrainingProject/TrainingProject_20_Spring_Context_Jdbc/Service/src/main/resources" charset="UTF-8" />
   </component>
 </project>
