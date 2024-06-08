@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>school21.spring.service</groupId>
-    <artifactId>SocketServer_2</artifactId>
+    <groupId>edu.lieineyes.server</groupId>
+    <artifactId>SocketServer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -96,7 +96,6 @@
             <version>${jcommander.version}</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -119,7 +118,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>edu.school21.sockets.app.Main</mainClass>
+                            <mainClass>edu.lieineyes.sockets.app.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
