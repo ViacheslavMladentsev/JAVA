@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="484.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lieineyes.calculator.view.mainform.MainFormControllerImpl">
+    <children>
+        <MenuBar fx:id="menuBar" maxHeight="27.0" maxWidth="484.0" minHeight="27.0" minWidth="484.0" prefHeight="27.0" prefWidth="484.0">
+            <menus>
+                <Menu fx:id="menuBarFile" mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="menuBarFileClearHistory" mnemonicParsing="false" onAction="#onClearHistorySelect" text="Clear history" />
+                    </items>
+                </Menu>
+                <Menu fx:id="menuBarCalculator" mnemonicParsing="false" text="Calculators">
+                    <items>
+                        <MenuItem fx:id="menuBarCalculatorItemMathematical" mnemonicParsing="false" text="Mathematical" />
+                        <MenuItem fx:id="menuBarCalculatorItamCredit" mnemonicParsing="false" onAction="#onCreditCalculatorSelect" text="Credit" />
+                        <MenuItem fx:id="menuBarCalculatorItemDeposit" mnemonicParsing="false" onAction="#onDepositCalculatorSelect" text="Deposit" />
+                    </items>
+                </Menu>
+                <Menu fx:id="menuBarHelp" mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem id="menuHelpAbout" fx:id="menuBarHelpItemAbout" mnemonicParsing="false" onAction="#onMenuHelpAboutClick" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <GridPane layoutX="10.0" layoutY="155.0" maxHeight="250.0" maxWidth="180.0" minHeight="250.0" minWidth="180.0" prefHeight="250.0" prefWidth="180.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button id="buttonDot" fx:id="buttonDot" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="." GridPane.columnIndex="1" GridPane.rowIndex="4">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonX" fx:id="buttonX" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="x" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonZero" fx:id="buttonZero" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="0" GridPane.rowIndex="4">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonOne" fx:id="buttonOne" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="1" GridPane.rowIndex="3">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonTwo" fx:id="buttonTwo" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonThree" fx:id="buttonThree" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonSix" fx:id="buttonSix" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonFive" fx:id="buttonFive" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonFour" fx:id="buttonFour" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="4" GridPane.rowIndex="2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonSeven" fx:id="buttonSeven" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="7" GridPane.rowIndex="1">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonEight" fx:id="buttonEight" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonNine" fx:id="buttonNine" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonCloseBracket" fx:id="buttonCloseBracket" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text=")" GridPane.columnIndex="2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonOpenBracket" fx:id="buttonOpenBracket" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="(" GridPane.columnIndex="1">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonAC" fx:id="buttonAC" mnemonicParsing="false" onAction="#onButtonACClick" prefHeight="53.0" prefWidth="78.0" text="A/C">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+        </GridPane>
+        <GridPane layoutX="214.0" layoutY="165.0" maxHeight="256.0" maxWidth="547.0" minHeight="250.0" minWidth="180.0" prefHeight="250.0" prefWidth="180.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="210.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button id="buttonScale" fx:id="buttonScale" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="^" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonSQRT" fx:id="buttonSQRT" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="sqrt" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonAddition" fx:id="buttonAdditional" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="+" GridPane.rowIndex="4">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonSubtraction" fx:id="buttonSubstraction" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="-" GridPane.rowIndex="3">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonTan" fx:id="buttonTan" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="tan" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonATan" fx:id="buttonATan" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="atan" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonACos" fx:id="buttonACos" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="acos" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonCos" fx:id="buttonCos" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="cos" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonDivision" fx:id="buttonDivision" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="/" GridPane.rowIndex="2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonMultiplication" fx:id="buttonMultiplication" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="*" GridPane.rowIndex="1">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonSin" fx:id="buttonSin" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="sin" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonASin" fx:id="buttonASin" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="asin" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonLog" fx:id="Log" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="log" GridPane.columnIndex="2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonLn" fx:id="Ln" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="ln" GridPane.columnIndex="1">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonMod" fx:id="buttonMod" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="mod">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+        </GridPane>
+        <GridPane layoutX="408.0" layoutY="165.0" maxHeight="250.0" maxWidth="568.0" minHeight="250.0" minWidth="60.0" prefHeight="250.0" prefWidth="60.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="410.0" AnchorPane.rightAnchor="10.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button id="buttonGraph" fx:id="buttonGraph" mnemonicParsing="false" onAction="#onButtonGraphClick" prefHeight="53.0" prefWidth="78.0" text="graph" GridPane.rowIndex="2">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonExponential" fx:id="buttonE" mnemonicParsing="false" onAction="#onInputButtonClick" prefHeight="53.0" prefWidth="78.0" text="E" GridPane.rowIndex="1">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonBackspace" fx:id="buttonBackspace" mnemonicParsing="false" onAction="#onBackspaceClick" prefHeight="50.0" prefWidth="107.0" text="&lt;-">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="buttonTotal" fx:id="buttonTotal" mnemonicParsing="false" onAction="#onButtonTotalClick" prefHeight="110.0" prefWidth="60.0" text="=" GridPane.rowIndex="3">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+        </GridPane>
+        <TextArea id="lableInputExpression" fx:id="fieldInputExpression" editable="false" layoutX="14.0" layoutY="102.0" prefHeight="50.0" prefWidth="464.0" AnchorPane.bottomAnchor="268.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="102.0">
+            <font>
+                <Font name="Ubuntu" size="16.0" />
+            </font>
+        </TextArea>
+      <ListView fx:id="listViewExpression" layoutX="10.0" layoutY="33.0" onMouseClicked="#onMouseSelectItemClicked" prefHeight="63.0" prefWidth="464.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="mainPain" fx:id="mainPane" maxHeight="385.0" maxWidth="600.0" minHeight="385.0" minWidth="600.0" prefHeight="385.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lieineyes.calculator.view.creditform.CreditFormControllerImpl">
+    <children>
+        <AnchorPane layoutX="10.0" layoutY="60.0" maxHeight="201.0" maxWidth="581.0" minHeight="179.0" minWidth="580.0" prefHeight="180.0" prefWidth="580.0" style="-fx-background-color: #deddda; -fx-border-color: #b4b4b4;" AnchorPane.bottomAnchor="165.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="40.0">
+            <children>
+                <VBox layoutX="2.0" layoutY="2.0" prefHeight="143.0" prefWidth="235.0" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="343.0" AnchorPane.topAnchor="1.0">
+                    <children>
+                        <Label text="Вариант расчёта">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="10.0" top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label text="Сумма кредита">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="10.0" top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label text="Срок кредита">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="10.0" top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label text="Процентная ставка">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="10.0" top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label prefHeight="19.0" prefWidth="231.0" text="Тип ежемесячных платежей:">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="10.0" top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                    </children>
+                </VBox>
+                <HBox layoutX="113.0" layoutY="148.0" prefHeight="18.0" prefWidth="385.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="112.0" AnchorPane.rightAnchor="83.0" AnchorPane.topAnchor="147.0">
+                    <children>
+                        <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" text="Аннуитентные">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton alignment="CENTER_LEFT" contentDisplay="CENTER" mnemonicParsing="false" text="Дифференцированные">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="20.0" />
+                            </HBox.margin>
+                        </RadioButton>
+                    </children>
+                </HBox>
+                <VBox layoutX="537.0" layoutY="29.0" prefHeight="86.0" prefWidth="43.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="29.0">
+                    <children>
+                        <Label text="руб.">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="10.0" top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label text="мес.">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="10.0" top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label text="\%">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets left="10.0" top="10.0" />
+                            </VBox.margin>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                        </Label>
+                    </children>
+                </VBox>
+                <Label layoutX="276.0" layoutY="14.0" prefHeight="19.0" prefWidth="242.0" text="Расчёт ежемесячного платежа">
+                    <font>
+                        <Font name="Ubuntu" size="16.0" />
+                    </font>
+                </Label>
+                <VBox layoutX="235.0" layoutY="30.0" prefHeight="87.0" prefWidth="312.0">
+                    <children>
+                        <TextField alignment="CENTER_RIGHT" prefWidth="312.0" text="0.0">
+                            <VBox.margin>
+                                <Insets bottom="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font name="Ubuntu" size="13.0" />
+                            </font>
+                        </TextField>
+                        <TextField alignment="CENTER_RIGHT" text="0">
+                            <VBox.margin>
+                                <Insets bottom="5.0" right="5.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font name="Ubuntu" size="13.0" />
+                            </font>
+                        </TextField>
+                        <TextField alignment="CENTER_RIGHT" text="0.0">
+                            <VBox.margin>
+                                <Insets right="5.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font name="Ubuntu" size="13.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="10.0" layoutY="273.0" maxHeight="111.0" maxWidth="581.0" minHeight="105.0" minWidth="580.0" prefHeight="105.0" prefWidth="580.0" style="-fx-background-color: #deddda; -fx-border-color: #b4b4b4;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="270.0">
+            <children>
+                <GridPane prefHeight="111.0" prefWidth="580.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="350.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="500.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="40.0" prefWidth="40.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Label prefHeight="61.0" prefWidth="236.0" text="Ежемесячный платёж">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="10.0" />
+                            </GridPane.margin>
+                        </Label>
+                        <Label prefHeight="61.0" prefWidth="236.0" text="Начисленные проценты" GridPane.rowIndex="1">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="10.0" />
+                            </GridPane.margin>
+                        </Label>
+                        <Label prefHeight="61.0" prefWidth="236.0" text="Долг + проценты" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets left="10.0" />
+                            </GridPane.margin>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="37.0" prefWidth="352.0" text="0.0" GridPane.columnIndex="1">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="37.0" prefWidth="349.0" text="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="37.0" prefWidth="352.0" text="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="37.0" prefWidth="199.0" text="руб." GridPane.columnIndex="2">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets right="2.0" />
+                            </GridPane.margin>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="61.0" prefWidth="236.0" text="руб." GridPane.columnIndex="2" GridPane.rowIndex="1">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets right="2.0" />
+                            </GridPane.margin>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" prefHeight="61.0" prefWidth="236.0" text="руб." GridPane.columnIndex="2" GridPane.rowIndex="2">
+                            <font>
+                                <Font name="Ubuntu" size="16.0" />
+                            </font>
+                            <GridPane.margin>
+                                <Insets right="2.0" />
+                            </GridPane.margin>
+                        </Label>
+                    </children>
+                </GridPane>
+            </children>
+        </AnchorPane>
+        <GridPane layoutX="127.0" layoutY="231.0" prefHeight="27.0" prefWidth="347.0" AnchorPane.bottomAnchor="220.0" AnchorPane.leftAnchor="127.0" AnchorPane.rightAnchor="126.0" AnchorPane.topAnchor="230.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="340.0" minWidth="170.0" prefWidth="170.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="340.0" minWidth="170.0" prefWidth="170.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button mnemonicParsing="false" onAction="#onButtonCalculateClick" prefHeight="94.0" prefWidth="220.0" text="Расчитать">
+                    <font>
+                        <Font name="Ubuntu" size="16.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#onButtonClearClick" prefHeight="72.0" prefWidth="212.0" text="Сбросить" GridPane.columnIndex="1">
+                    <font>
+                        <Font name="Ubuntu" size="16.0" />
+                    </font>
+                </Button>
+            </children>
+        </GridPane>
+        <MenuBar fx:id="menuBar" layoutY="1.0" maxHeight="30.0" maxWidth="600.0" minHeight="30.0" minWidth="484.0" prefHeight="30.0" prefWidth="600.0">
+            <menus>
+                <Menu fx:id="menuBarFile" mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="menuBarFileItemClose" mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu fx:id="menuBarCalculator" mnemonicParsing="false" text="Calculators">
+                    <items>
+                        <MenuItem fx:id="menuBarCalculatorItemMathematical" mnemonicParsing="false" onAction="#onMathematicalCalculatorSelect" text="Mathematical" />
+                        <MenuItem fx:id="menuBarCalculatorItamCredit" mnemonicParsing="false" text="Credit" />
+                        <MenuItem fx:id="menuBarCalculatorItemDeposit" mnemonicParsing="false" onAction="#onDepositCalculatorSelect" text="Deposit" />
+                    </items>
+                </Menu>
+                <Menu fx:id="menuBarHelp" mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem id="menuHelpAbout" fx:id="menuBarHelpItemAbout" mnemonicParsing="false" onAction="#onMenuHelpAboutClick" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>
