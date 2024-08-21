@@ -1,4 +1,4 @@
-package edu.school21.sockets.validator;
+package edu.lieineyes.sockets.validator;
 
 import com.beust.jcommander.IParameterValidator;
 import com.beust.jcommander.ParameterException;

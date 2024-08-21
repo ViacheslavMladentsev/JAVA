@@ -1,4 +1,4 @@
-package edu.school21.sockets.models;
+package edu.lieineyes.sockets.models;
 
 import lombok.*;
 

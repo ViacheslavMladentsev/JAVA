@@ -1,10 +1,10 @@
-package edu.school21.sockets.app;
+package edu.lieineyes.sockets.app;
 
 import com.beust.jcommander.JCommander;
 import com.zaxxer.hikari.HikariDataSource;
-import edu.school21.sockets.config.SocketsApplicationConfig;
-import edu.school21.sockets.server.Server;
-import edu.school21.sockets.validator.InputArgs;
+import edu.lieineyes.sockets.config.SocketsApplicationConfig;
+import edu.lieineyes.sockets.server.Server;
+import edu.lieineyes.sockets.validator.InputArgs;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

@@ -1,4 +1,4 @@
-package edu.school21.sockets.schemasMessaging;
+package edu.lieineyes.sockets.schemasMessaging;
 
 import lombok.*;
 

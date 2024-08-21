@@ -1,4 +1,4 @@
-package edu.school21.sockets.schemasMessaging.toServer;
+package edu.lieineyes.sockets.schemasMessaging.toServer;
 
 import edu.school21.sockets.schemasMessaging.UserSchema;
 import lombok.Getter;

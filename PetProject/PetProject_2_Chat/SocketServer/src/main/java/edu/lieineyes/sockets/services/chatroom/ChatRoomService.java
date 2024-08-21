@@ -1,6 +1,6 @@
-package edu.school21.sockets.services.chatroom;
+package edu.lieineyes.sockets.services.chatroom;
 
-import edu.school21.sockets.models.User;
+import edu.lieineyes.sockets.models.User;
 
 
 public interface ChatRoomService<T> {

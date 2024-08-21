@@ -1,4 +1,4 @@
-package edu.school21.sockets.repositories.crud;
+package edu.lieineyes.sockets.repositories.crud;
 
 import java.util.List;
 import java.util.Optional;

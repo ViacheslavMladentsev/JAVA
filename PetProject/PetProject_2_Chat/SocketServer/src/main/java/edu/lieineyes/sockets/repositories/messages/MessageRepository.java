@@ -1,7 +1,7 @@
-package edu.school21.sockets.repositories.messages;
+package edu.lieineyes.sockets.repositories.messages;
 
-import edu.school21.sockets.models.Message;
-import edu.school21.sockets.repositories.crud.CrudRepository;
+import edu.lieineyes.sockets.models.Message;
+import edu.lieineyes.sockets.repositories.crud.CrudRepository;
 
 import java.util.List;
 

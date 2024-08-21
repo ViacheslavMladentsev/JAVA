@@ -1,7 +1,7 @@
-package edu.school21.sockets.repositories.users;
+package edu.lieineyes.sockets.repositories.users;
 
-import edu.school21.sockets.models.User;
-import edu.school21.sockets.repositories.crud.CrudRepository;
+import edu.lieineyes.sockets.models.User;
+import edu.lieineyes.sockets.repositories.crud.CrudRepository;
 
 import java.util.Optional;
 

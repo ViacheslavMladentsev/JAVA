@@ -1,4 +1,4 @@
-package edu.school21.sockets.services.message;
+package edu.lieineyes.sockets.services.message;
 
 import java.util.List;
 

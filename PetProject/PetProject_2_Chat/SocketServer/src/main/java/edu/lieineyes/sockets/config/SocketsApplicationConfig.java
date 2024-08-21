@@ -1,4 +1,4 @@
-package edu.school21.sockets.config;
+package edu.lieineyes.sockets.config;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -12,7 +12,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 
 @Configuration
-@ComponentScan("edu.school21.sockets")
+@ComponentScan("edu.lieineyes.sockets")
 @PropertySource("classpath:db.properties")
 public class SocketsApplicationConfig {
 

@@ -1,7 +1,7 @@
-package edu.school21.sockets.services.user;
+package edu.lieineyes.sockets.services.user;
 
-import edu.school21.sockets.models.User;
-import edu.school21.sockets.repositories.users.UsersRepository;
+import edu.lieineyes.sockets.models.User;
+import edu.lieineyes.sockets.repositories.users.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.crypto.password.PasswordEncoder;

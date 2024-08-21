@@ -1,9 +1,9 @@
-package edu.school21.sockets.schemasMessaging.toServer;
+package edu.lieineyes.sockets.schemasMessaging.toServer;
 
-import edu.school21.sockets.schemasMessaging.UserSchema;
+import edu.lieineyes.sockets.schemasMessaging.UserSchema;
 
 
-public class MessageUserInfoToServer extends MessageToServerBase {
+public class MessageUserInfoToServer extends edu.lieineyes.sockets.schemasMessaging.toServer.MessageToServerBase {
 
     private final UserSchema user;
 

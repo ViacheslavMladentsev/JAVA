@@ -1,11 +1,11 @@
-package edu.school21.sockets.schemasMessaging.toServer;
+package edu.lieineyes.sockets.schemasMessaging.toServer;
 
-import edu.school21.sockets.schemasMessaging.RoomSchema;
+import edu.lieineyes.sockets.schemasMessaging.RoomSchema;
 import lombok.Getter;
 
 
 @Getter
-public class MessageRoomInfoToServer extends MessageToServerBase {
+public class MessageRoomInfoToServer extends edu.lieineyes.sockets.schemasMessaging.toServer.MessageToServerBase {
 
     RoomSchema roomInfo;
 

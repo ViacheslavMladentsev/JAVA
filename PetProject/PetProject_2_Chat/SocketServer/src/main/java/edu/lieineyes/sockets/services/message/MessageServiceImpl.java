@@ -1,7 +1,7 @@
-package edu.school21.sockets.services.message;
+package edu.lieineyes.sockets.services.message;
 
-import edu.school21.sockets.models.Message;
-import edu.school21.sockets.repositories.messages.MessageRepository;
+import edu.lieineyes.sockets.models.Message;
+import edu.lieineyes.sockets.repositories.messages.MessageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;

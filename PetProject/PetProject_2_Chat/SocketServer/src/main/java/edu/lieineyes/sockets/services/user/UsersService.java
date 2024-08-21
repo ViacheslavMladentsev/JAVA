@@ -1,6 +1,6 @@
-package edu.school21.sockets.services.user;
+package edu.lieineyes.sockets.services.user;
 
-import edu.school21.sockets.models.User;
+import edu.lieineyes.sockets.models.User;
 
 import java.util.Optional;
 

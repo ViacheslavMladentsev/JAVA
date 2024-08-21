@@ -1,6 +1,6 @@
-package edu.school21.sockets.repositories.users;
+package edu.lieineyes.sockets.repositories.users;
 
-import edu.school21.sockets.models.User;
+import edu.lieineyes.sockets.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.dao.DataAccessException;

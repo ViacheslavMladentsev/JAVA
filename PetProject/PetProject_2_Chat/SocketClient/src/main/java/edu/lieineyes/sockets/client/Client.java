@@ -1,15 +1,15 @@
-package edu.school21.sockets.client;
+package edu.lieineyes.sockets.client;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import edu.school21.sockets.schemasMessaging.MessageSchema;
-import edu.school21.sockets.schemasMessaging.RoomSchema;
-import edu.school21.sockets.schemasMessaging.toServer.MessageRoomInfoToServer;
-import edu.school21.sockets.schemasMessaging.toServer.MessageToServerBase;
-import edu.school21.sockets.schemasMessaging.toServer.MessageUserInfoToServer;
-import edu.school21.sockets.schemasMessaging.fromServer.ResponseMessageFromServerBased;
-import edu.school21.sockets.schemasMessaging.UserSchema;
-import edu.school21.sockets.schemasMessaging.toServer.ResponseMessageToServerBased;
+import edu.lieineyes.sockets.schemasMessaging.MessageSchema;
+import edu.lieineyes.sockets.schemasMessaging.RoomSchema;
+import edu.lieineyes.sockets.schemasMessaging.toServer.MessageRoomInfoToServer;
+import edu.lieineyes.sockets.schemasMessaging.toServer.MessageToServerBase;
+import edu.lieineyes.sockets.schemasMessaging.toServer.MessageUserInfoToServer;
+import edu.lieineyes.sockets.schemasMessaging.fromServer.ResponseMessageFromServerBased;
+import edu.lieineyes.sockets.schemasMessaging.UserSchema;
+import edu.lieineyes.sockets.schemasMessaging.toServer.ResponseMessageToServerBased;
 
 import java.io.*;
 import java.net.Socket;

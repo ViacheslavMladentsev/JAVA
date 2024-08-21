@@ -1,6 +1,6 @@
-package edu.school21.sockets.repositories.chatroom;
+package edu.lieineyes.sockets.repositories.chatroom;
 
-import edu.school21.sockets.models.Chatroom;
+import edu.lieineyes.sockets.models.Chatroom;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;

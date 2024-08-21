@@ -1,4 +1,4 @@
-package edu.school21.sockets.schemasMessaging;
+package edu.lieineyes.sockets.schemasMessaging;
 
 import lombok.*;
 
@@ -11,7 +11,7 @@ import lombok.*;
 @AllArgsConstructor
 public class MessageSchema {
 
-    private UserSchema author;
+    private edu.lieineyes.sockets.schemasMessaging.UserSchema author;
     private String message;
 
 }

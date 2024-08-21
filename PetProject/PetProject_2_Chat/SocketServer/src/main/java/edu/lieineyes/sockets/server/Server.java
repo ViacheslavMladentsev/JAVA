@@ -1,4 +1,4 @@
-package edu.school21.sockets.server;
+package edu.lieineyes.sockets.server;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -15,7 +15,7 @@ public class Server {
     private static final String MESSAGE_ERROR_INIT_SERVER = "Ошибка: неудачный запуск сервера, аварийная остановка =(";
 
 
-    static final LinkedList<SomeClientSocket> listSockets = new LinkedList<>();
+    static final LinkedList<edu.lieineyes.sockets.server.SomeClientSocket> listSockets = new LinkedList<>();
 
 
     public void start(int port) throws IOException {
@@ -24,7 +24,7 @@ public class Server {
             while (true) {
                 Socket clientSocket = server.accept();
                 try {
-                    listSockets.add(new SomeClientSocket(clientSocket));
+                    listSockets.add(new edu.lieineyes.sockets.server.SomeClientSocket(clientSocket));
                 } catch (IOException e) {
                     clientSocket.close();
                 }

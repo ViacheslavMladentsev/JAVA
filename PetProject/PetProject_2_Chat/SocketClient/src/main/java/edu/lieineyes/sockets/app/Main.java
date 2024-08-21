@@ -1,8 +1,8 @@
-package edu.school21.sockets.app;
+package edu.lieineyes.sockets.app;
 
 import com.beust.jcommander.JCommander;
-import edu.school21.sockets.client.Client;
-import edu.school21.sockets.validator.InputArgs;
+import edu.lieineyes.sockets.client.Client;
+import edu.lieineyes.sockets.validator.InputArgs;
 
 import java.io.IOException;
 
